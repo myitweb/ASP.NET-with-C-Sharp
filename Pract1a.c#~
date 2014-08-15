@@ -1,0 +1,8 @@
+/* 
+Write a console application that obtains four int values from the user and displays the
+product. Hint: you may recall that the Convert.ToDouble() command was used to convert the
+input from the console to a double; the equivalent command to convert from a string to an int
+is Convert.ToInt32().
+*/
+
+

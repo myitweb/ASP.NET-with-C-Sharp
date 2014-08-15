@@ -1,0 +1,23 @@
+/*
+Write an application that uses two command-line arguments to place values into a string and an integer variable, respectively. Then display these values.
+*/
+/* Do provide command line arguments in your IDE */
+
+using System;
+namespace practical1E
+{
+    class P1E
+    {
+        static void Main(string[] args)
+        {
+            String str;
+            int i;
+            str = args[0];
+            i = Convert.ToInt32(args[1]);
+            Console.WriteLine("Entered String In Command Line : {0}\nEntered Integer In Command Line : {1}", str, i);
+            Console.ReadLine();
+        }
+    }
+}
+
+

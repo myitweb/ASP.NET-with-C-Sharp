@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MastePages_MasterPage" %>
+
+<%@ Register src="../Control/WebUserControl.ascx" tagname="WebUserControl" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 590px;
+        }
+        .style2
+        {            height: 80px;
+            color: #FF0000;
+            font-size: xx-large;
+        }
+        .style3
+        {
+            width: 124px;
+            height: 430px;
+        }
+        .style4
+        {
+            width: 942px;
+            height: 430px;
+        }
+        .style5
+        {
+            text-decoration: underline;
+            color: #0000FF;
+            font-family: "Microsoft Sans Serif";
+        }
+        .style6
+        {
+            height: 430px;
+        }
+    </style>
+</head>
+<body style="height: 606px; width: 994px; margin-bottom: 0px">
+    <form id="form1" runat="server">
+    <div>
+    </div>
+    <table class="style1">
+        <tr>
+            <td class="style2" colspan="3" 
+                style="background-image: url('/MASTERDEMO/images/p2.jpg'); background-repeat: no-repeat; background-attachment: inherit; background-position: center center; background-color: #66FF66;" >
+                <strong style="font-size: x-large">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                PLAY ONLINE GAMES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                FREE DOWNLOAD 
+                <br />
+                </strong></td>
+        </tr>
+        <tr>
+            <td class="style3" 
+                style="background-color: #FF0000; font-size: large; color: #0000FF">
+                <asp:Menu ID="Menu1" runat="server" Height="117px" RenderingMode="Table" 
+                    StaticSubMenuIndent="16px" Width="125px">
+                    <Items>
+                        <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Log in" Value="Log in" NavigateUrl="~/Login.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="About Us" Value="About Us" NavigateUrl="~/About Us.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Feed Back" Value="Feed Back" NavigateUrl="~/FeedBack.aspx"></asp:MenuItem>
+                    </Items>
+                    <StaticMenuItemStyle BackColor="#66FFFF" />
+                </asp:Menu>
+                <uc1:WebUserControl ID="WebUserControl1" runat="server" />
+            </td>
+            <td class="style4">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </td>
+            <td class="style6" 
+                style="background-image: url('/MASTERDEMO/images/p1.jpg'); background-repeat: no-repeat;">
+                <br />
+                <br />
+                <br />
+                <br />
+                <span class="style5"><strong>Win the game and get price </strong>
+                <asp:TreeView ID="TreeView1" runat="server" LineImagesFolder="~/TreeLineImages" 
+                    ShowLines="True" CollapseImageUrl="~/images/p3.jpg">
+                    <Nodes>
+                        <asp:TreeNode Text="Puzzle" Value="Puzzle">
+                            <asp:TreeNode Text="Smart Birds " ToolTip="You have to search a smart bird" 
+                                Value="Smart Birds "></asp:TreeNode>
+                            <asp:TreeNode Text="Pour the fish" 
+                                ToolTip="Get the water to the fish before it dies" Value="Pour the fish">
+                            </asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="Racing" Value="Racing">
+                            <asp:TreeNode Text="Solid Rider" 
+                                ToolTip="Motor racing without falling off flags" Value="Solid Rider">
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="Neon Race 2" ToolTip="Crash the cars" Value="Neon Race 2">
+                            </asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="Adventure" Value="Adventure">
+                            <asp:TreeNode Text="Dragon Guest 2" ToolTip="Free your friend" 
+                                Value="Dragon Guest 2"></asp:TreeNode>
+                            <asp:TreeNode Text="Pirateers " ToolTip="Search of mythical piece of treasure" 
+                                Value="Pirateers "></asp:TreeNode>
+                        </asp:TreeNode>
+                    </Nodes>
+                </asp:TreeView>
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td  colspan="3" style="background-image: url('/MASTERDEMO/images/p6.jpg')">
+                &nbsp;</td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>

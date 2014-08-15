@@ -1,0 +1,5 @@
+/*
+Write an application that includes the logic from Practical 1A, obtains two numbers from the user, and displays them, but rejects any input where both numbers are greater than 10 and asks for two new numbers.
+*/
+
+

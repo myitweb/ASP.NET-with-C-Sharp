@@ -1,0 +1,72 @@
+/* WAP to display the Exception Handling. */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace ConsoleApplication16
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 10;
+            int b = 5;
+            int c = 5;
+            int x, y;
+            try
+            {
+                x = a / (b - c);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Division by zero");
+            }
+            y = a/(b+c);
+            int[] d = { 5, 10 };
+            int f = 5;
+            try
+            {
+                int g = d[2] / f - d[1];
+            }
+            catch (ArithmeticException e)
+            {
+                Console.WriteLine("Division by zero");
+ }
+            catch (IndexOutOfRangeException e)
+            {
+                Console.WriteLine("Array Index Error");
+            }
+            try 
+            {
+                Division();
+             }
+            catch(DivideByZeroException e)
+            {
+                Console.WriteLine("Caught Exception");
+            }
+            finally
+            {
+                    Console.WriteLine("Index Main Method");
+            }
+            Console.ReadKey();
+        }
+           static int m=10;
+           static int n=10;
+            
+           static void Division()
+           {
+               try
+               {
+               int k= m / n;
+               }
+               catch(ArgumentException e)
+               {
+               Console.WriteLine("Caught Exception");
+               }
+               finally
+               {
+               Console.WriteLine("Inside Division Method");
+               
+               } 
+} } }

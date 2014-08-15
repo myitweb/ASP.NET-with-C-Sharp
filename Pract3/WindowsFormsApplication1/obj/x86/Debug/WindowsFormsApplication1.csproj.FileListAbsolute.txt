@@ -1,0 +1,90 @@
+C:\Documents and Settings\Aasthanuja\Desktop\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Aasthanuja\Desktop\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\Aasthanuja\Desktop\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\Aasthanuja\Desktop\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Aasthanuja\Desktop\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Aasthanuja\Desktop\windows form\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\Aasthanuja\Desktop\windows form\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\Aasthanuja\Desktop\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\Aasthanuja\Desktop\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\Aasthanuja\Desktop\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.AboutBox1.resources
+C:\Documents and Settings\Aasthanuja\Desktop\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+G:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+G:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+G:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+G:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+G:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.AboutBox1.resources
+G:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+G:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+G:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+G:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+H:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+H:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+H:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+H:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.AboutBox1.resources
+H:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+H:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+H:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+H:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.AboutBox1.resources
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.AboutBox2.resources
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.AboutBox3.resources
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+F:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+F:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+F:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+F:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.AboutBox1.resources
+F:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+F:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+F:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\de\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+F:\de\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+F:\de\windows form\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+F:\de\windows form\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+F:\de\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\de\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.AboutBox1.resources
+F:\de\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+F:\de\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+F:\de\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\de\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\de\windows form\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\myitweb\temp\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+E:\myitweb\temp\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+E:\myitweb\temp\C# 3-8\3\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\myitweb\temp\C# 3-8\3\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\myitweb\temp\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\myitweb\temp\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.AboutBox1.resources
+E:\myitweb\temp\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+E:\myitweb\temp\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+E:\myitweb\temp\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\myitweb\temp\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\myitweb\temp\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\myitweb\TYIT\Asp.net with c#\Practicals\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+E:\myitweb\TYIT\Asp.net with c#\Practicals\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+E:\myitweb\TYIT\Asp.net with c#\Practicals\C# 3-8\3\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\myitweb\TYIT\Asp.net with c#\Practicals\C# 3-8\3\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\myitweb\TYIT\Asp.net with c#\Practicals\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\myitweb\TYIT\Asp.net with c#\Practicals\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.AboutBox1.resources
+E:\myitweb\TYIT\Asp.net with c#\Practicals\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+E:\myitweb\TYIT\Asp.net with c#\Practicals\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\myitweb\TYIT\Asp.net with c#\Practicals\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\myitweb\TYIT\Asp.net with c#\Practicals\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\myitweb\TYIT\Asp.net with c#\Practicals\C# 3-8\3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form3.resources

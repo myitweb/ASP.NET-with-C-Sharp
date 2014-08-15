@@ -1,0 +1,43 @@
+/* WAP to display  operator overloading. */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace ConsoleApplication13
+{
+    class no
+    {
+        int x, y, z;
+        public no(int a,int b,int c)
+    {
+        x = a;
+          y = b;
+          z = c;
+    }
+        public static no operator-(no n)
+        {
+            n.x=-n.x;
+            n.y=-n.y;
+            n.z=-n.z;
+            return (n);
+}
+        public void show()
+        {
+        Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
+        }
+    }
+    class Program
+    {	
+        static void Main(string[] args)
+        {
+ no n=new no(-10,-20,30);
+            n.show();
+            n=-n;
+            n.show();
+            Console.ReadKey();
+ 		 }
+}
+}

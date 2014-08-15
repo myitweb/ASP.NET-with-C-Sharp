@@ -1,0 +1,6 @@
+/*
+Write an application that receives the following information from a set of students:
+Student Id, Student Name, Course Name, Date of Birth. The application should also display the information of all the students once the data is entered. Implement this using an Array of Structs.
+*/
+
+

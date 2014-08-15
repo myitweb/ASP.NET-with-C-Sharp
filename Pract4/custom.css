@@ -1,0 +1,26 @@
+body
+{
+background:orange;
+}
+
+.header
+{
+border:20px solid black;
+margin:5px;
+padding:2px;
+}
+
+.content
+{
+position:absolute;
+width:400px;
+height:200px;
+}
+
+p
+{
+color:blue;
+}
+
+
+

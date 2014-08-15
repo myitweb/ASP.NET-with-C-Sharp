@@ -1,0 +1,67 @@
+/* Inheritance2 */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+
+    class A
+    {
+        protected int a;
+        public A(int x)
+        {
+            a = x;
+        }
+        public void show()
+        {
+            Console.WriteLine("\n Parent class");
+            Console.WriteLine("Value of A:" + a);
+        }
+    }
+    class B : A
+    {
+        protected int b;
+        public B(int x, int y)
+            : base(x)
+        {
+            b = y;
+        }
+        public void show1()
+        {
+            Console.WriteLine("\n Intermediate class");
+            Console.WriteLine("Value of A:" + a);
+            Console.WriteLine("Value of B:" + b);
+        }
+    }
+    class C : B
+    {
+        protected int c;
+        public C(int x, int y, int z)
+            : base(x, y)
+        {
+            c = z;
+        }
+        public void show2()
+        {
+            Console.WriteLine("\n Child class");
+            Console.WriteLine("Value of A:" + a);
+            Console.WriteLine("Value of B:" + b);
+            Console.WriteLine("Value of C:" + c);
+        }
+
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            C obj = new C(10, 20, 30);
+            obj.show();
+            obj.show1();
+            obj.show2();
+            Console.ReadKey();
+        }
+    }
+}

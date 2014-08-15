@@ -1,0 +1,37 @@
+/* Write a program to implement Object Oriented Programming concept. */
+/* Program using classes. */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace ConsoleApplication1
+{ 
+    class Person
+    {
+        string name;
+        int age;
+        public void get()
+        {
+            Console.WriteLine("Enter your name:");
+            name=Console.ReadLine();
+            Console.WriteLine("Enter your age:");
+            age=Convert.ToInt32(Console.ReadLine());
+        }
+        public void show()
+        {
+           Console.WriteLine("\nyour name is:"+name);
+           Console.WriteLine("your age is:"+age);
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Person p = new Person();
+            p.get();
+            p.show();
+            Console.ReadKey();
+        }
+     }
+}

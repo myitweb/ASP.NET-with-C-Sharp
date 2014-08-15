@@ -1,0 +1,42 @@
+/*
+Write a program to generate the prime no.
+*/
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a,i,j;
+            bool flag = true;
+            Console.WriteLine("Enter the no:");
+            a = Convert.ToInt32(Console.ReadLine());
+            for (i = 2; i <= a; i++)
+            {
+                for (j = 2; j <= a; j++)
+                {
+                    if(i != j && i % j == 0)
+                    {
+                        flag = false;
+                        break;
+
+                    }
+
+                }
+                if(flag)
+                {
+                       Console.WriteLine("Prime no:"+i);
+               
+                }
+                 flag=true;
+            }
+            Console.ReadKey();
+        }
+    }
+}

@@ -1,0 +1,36 @@
+/* Write a program to implement Object concept of function overloading. */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Area
+    {
+        int length, breath;
+        public int Area1(int l)
+        {
+            length = breath = l;
+            return (length * breath);
+        }
+        public int Area1(int l, int b)
+        {
+            length = l;
+            breath = b;
+            return (l * b);
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Area a = new Area();
+            Console.WriteLine("\nArea is: " + a.Area1(20));
+            Console.WriteLine("\nArea is: " + a.Area1(10,20));
+
+            Console.ReadKey();
+        }
+    }
+}

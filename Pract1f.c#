@@ -1,0 +1,49 @@
+/*
+Write an application that receives the following information from a set of students:
+Student Id, Student Name, Course Name, Date of Birth. The application should also display the information of all the students once the data is entered. Implement this using an Array of Structs.
+*/
+
+using System;
+
+
+namespace pr1f
+{
+    struct student
+    {
+       public int sid;
+       public String sname;
+       public string cname;
+       public string dob;
+    }
+    
+    class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            student[] s=new student[5] ;
+            int i;
+            for (i = 0; i <5; i++)
+            { 
+                Console.WriteLine("\nEnter Detrais for {0} Student ",i+1);
+                Console.WriteLine("Enter Student id ");
+                s[i].sid = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter Student Name ");
+                s[i].sname = Console.ReadLine();
+                Console.WriteLine("Enter Course Name ");
+                s[i].cname = Console.ReadLine();
+                Console.WriteLine("Enter Date Of Birth ");
+                s[i].dob = Console.ReadLine();
+
+                Console.WriteLine("Enter Student id "+s[i].sid);
+                Console.WriteLine("Enter Student Name "+s[i].sname);
+                Console.WriteLine("Enter Course Name " + s[i].cname);
+                Console.WriteLine("Enter Date Of Birth " + s[i].dob);
+
+                   
+
+            
+            }
+            Console.ReadLine();
+        }
+    }

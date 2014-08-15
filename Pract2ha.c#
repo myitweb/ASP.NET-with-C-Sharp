@@ -1,0 +1,56 @@
+/* Interface 1 */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace ConsoleApplication12
+{
+    interface A
+    {
+        void show();
+    }
+    interface B
+    {
+        void show1();
+    }
+    interface C
+    {
+        void show2();
+    }
+
+    class D : A, B, C
+    {
+       public void show()
+        {
+            Console.WriteLine("1111111");
+        }
+        public void show1()
+        {
+            Console.WriteLine("2222222");
+        }
+        public void show2()
+        {
+            Console.WriteLine("3333333");
+        }
+    }
+        class E : D
+        {
+            public void show3()
+            {
+                Console.WriteLine("Interface called");
+            }
+        }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            E d = new E();
+            d.show();
+            d.show1();
+            d.show2();
+            d.show3();
+            Console.ReadKey();
+        }
+    }
+}

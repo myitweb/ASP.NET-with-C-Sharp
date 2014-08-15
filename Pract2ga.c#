@@ -1,0 +1,53 @@
+/* Inheritance1 */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class B
+    {
+        int a, b;
+        public void get(int x, int y)
+        {
+            a = x;
+            b = y;
+        }
+        public void show()
+        {
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+        }
+    }
+    class D : B
+    {
+        int i, j;
+        public void get(int p, int q)
+        {
+            i = p;
+            j = q;
+        }
+        public void show()
+        {
+            Console.WriteLine(i);
+            Console.WriteLine(j);
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            B b = new B();
+            D d = new D();
+            b.get(10, 20);
+            b.show();
+            b.get(40, 50);
+            b.show();
+            Console.ReadKey(); 
+        }
+    }
+}
+
+

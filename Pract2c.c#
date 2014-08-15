@@ -1,0 +1,41 @@
+/* Write a program to implement Object concept of Indexer. */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace ConsoleApplication1
+{
+    class Person
+    {
+        private string [] name=new string[5];
+        public string this[int index]
+        {
+            get
+            {
+                return name[index];
+            }
+            set
+            {
+                name[index]=value;
+            }
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Person p = new Person();
+            p[0] = "Monika";
+            p[1] = "Apurva";
+            p[2] = "Sneha";
+            p[3] = "Nikita";
+            p[4] = "Tanvi";
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("\t" + p[i]);
+            }
+            Console.ReadKey();
+        }
+}
+}

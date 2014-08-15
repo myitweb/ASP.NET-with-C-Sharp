@@ -1,0 +1,65 @@
+
+/* WAP to display  operator overloading 3 */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication15
+{
+    class complex
+    {
+        String fname;
+        String lname;
+        public complex(string f1, string l1)
+        {
+            fname = f1;
+            lname = l1;
+        }
+        public void show()
+        {
+            Console.WriteLine("First name:" + fname);
+            Console.WriteLine("Last name:" + lname);
+        }
+        public static bool operator ==(complex c1, complex c2)
+        {
+            if ((c1.fname == c2.fname) && (c1.lname == c2.lname))
+
+                return (true);
+
+            else
+
+                return (false);
+
+        }
+        public static bool operator !=(complex c1, complex c2)
+        {
+            if ((c1.fname == c2.fname) && (c1.lname == c2.lname))
+
+                return (true);
+
+            else
+
+                return (false);
+
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            complex cp1 = new complex("mana", "mana");
+            complex cp2 = new complex("patil", "patil");
+            if (cp1 == cp2)
+            {
+                Console.WriteLine("Same string");
+            }
+            else
+            {
+                Console.WriteLine("not same string");
+            }
+            Console.ReadKey();
+        }
+    }
+}

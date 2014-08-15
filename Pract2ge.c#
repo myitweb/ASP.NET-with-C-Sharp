@@ -1,0 +1,46 @@
+/* Inheritance 5 */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication11
+{
+    interface ddouble
+    {
+        int ddouble(int x);
+    }
+    interface square
+    {
+        int sqr(int a);
+    }
+    class B : ddouble, square
+    {
+        public int ddouble(int x)
+        {
+            return (2 * x);
+        }
+        public int sqr(int a)
+        {
+            return (a * a);
+        }
+
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i, j;
+            B obj = new B();
+            i = obj.ddouble(100);
+            Console.WriteLine("Double is:" + i);
+
+            j = obj.sqr(10);
+            Console.WriteLine("Square is:" + j);
+            Console.ReadKey();
+
+
+        }
+    }
+}

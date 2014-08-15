@@ -1,0 +1,33 @@
+/* Inheritance 4 */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication9
+{
+    class A
+    {
+        public void show()
+        {
+            Console.WriteLine("Base class Show");
+        }
+    }
+    class B : A
+    {
+        public new void show()
+        {
+            Console.WriteLine("Derived class Show");
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            A a = new A();
+            B b = new B();
+            b.show();
+            Console.ReadKey();
+        }
+    }
+}

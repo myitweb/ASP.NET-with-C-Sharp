@@ -1,0 +1,34 @@
+/* WAP to display the Delegates. */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication17
+{
+    delegate int ArithOP(int k,int y);
+    class mathoperation
+    {
+    public static int Add(int a,int b)
+    {
+    return(a+b);
+    }
+    public static int Sub(int a,int b)
+    {
+     return(a-b);
+    }
+    }
+    class DemoDelegate
+    {
+    static void Main(string[] args)
+        {
+            ArithOP op1=new ArithOP(mathoperation.Add);
+        ArithOP op2=new ArithOP(mathoperation.Sub);
+        int r1=op1(100,200);
+        int r2=op2(200,100);
+        Console.WriteLine("Add:"+r1);
+        Console.WriteLine("Sub:"+r2);
+        Console.ReadKey();
+        }
+    }}

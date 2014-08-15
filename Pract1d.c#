@@ -1,0 +1,16 @@
+/* 
+Write a console application that places double quotation marks around each word in a string.
+*/
+
+using System;
+
+namespace Practical1D
+{
+    class P1D
+    {
+        static void Main(string[] args)
+        {
+            Console.Out.WriteLine("\Hello\" \"World\" "); 
+        }
+    }
+}

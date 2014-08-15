@@ -1,0 +1,51 @@
+/* WAP to display  operator overloading 2. */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace ConsoleApplication14
+{
+    class complex
+    {
+        double real;
+        double imaginary;
+        public complex()
+        {
+            real = 0.0;
+            imaginary = 0.0;
+  }
+        public complex(double r, double i)
+        {
+            real = r;
+            imaginary = i;
+        }
+        public void show()
+  {
+            Console.WriteLine("Real:"+real);
+            Console.WriteLine("Imaginary:" + imaginary);
+        }
+            public static complex operator +(complex c1, complex c2)
+            {
+                complex c3=new  complex();
+                c3.real=c1.real+c2.real;
+                c3.imaginary=c1.imaginary + c2.imaginary;
+                return(c3);
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            complex cp1=new complex(21.0,22.0);
+            complex cp2=new complex(10.0,20.0);
+            complex cp3=new complex();
+            cp2.show();
+            cp2.show();
+            cp3 = cp1 + cp2;
+            cp3.show();
+            Console.ReadKey();
+ 		 } 
+ } 
+}
+

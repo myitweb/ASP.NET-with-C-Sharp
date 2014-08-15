@@ -1,0 +1,60 @@
+/* 
+Write a program to implement concept of Constructor overloading.
+*/
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Prg
+    {
+        int a, b;
+        public Prg()
+        {
+            a = 10;
+            b = 20;
+        }
+        public Prg(int x)
+        {
+            a = b = x;
+        }
+        public Prg(int x, int y)
+        {
+            a = x;
+            b = y;
+        }
+        public Prg(Prg p)
+        {
+            a = p.a;
+            b = p.b;
+        }
+        public void show()
+        {
+            Console.WriteLine("\na=" + a);
+            Console.WriteLine("b=" + b);
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Prg p = new Prg();
+            p.show();
+
+            Prg p1 = new Prg(10);
+            p1.show();
+
+            Prg p2 = new Prg(10,20);
+            p2.show();
+
+            Prg p3 = new Prg(p2);
+            p3.show();
+
+           Console.ReadKey();
+        }
+    }
+}

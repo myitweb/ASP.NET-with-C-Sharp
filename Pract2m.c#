@@ -1,0 +1,34 @@
+/* Edelegate */ 
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace ConsoleApplication19
+{
+    public delegate void Edelegate(string str);
+    class Eventclass
+    {
+        public event Edelegate Status;
+        public void TriggerEvent()
+        {
+            if (Status != null)
+            {
+                Status("Event Triggered");
+            }
+        }
+    }
+    class DemoEvent
+    {
+        static void Main(string[] args)
+        {
+            Eventclass ec = new Eventclass();
+            DemoEvent et = new DemoEvent();
+            ec.Status +=new Edelegate(et.EventCatch);
+            ec.TriggerEvent();
+        }
+         public void EventCatch(String str)
+        {
+            Console.WriteLine(str);
+            Console.ReadKey();
+        } }}

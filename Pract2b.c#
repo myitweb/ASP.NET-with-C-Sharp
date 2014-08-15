@@ -1,0 +1,40 @@
+/*
+Write a program to implement concept of static main function 
+*/
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class staticEx
+    {
+        public static int power(int x, int y)
+        {
+            int i = 1, res = 1;
+            for (i = 1; i <= y; i++)
+                res = res * x;
+            return (res);
+        }
+        public static int sum(int x, int y)
+        {
+            return (x + y);
+        }
+    }
+
+    class program
+    {
+        static void Main(string[] args)
+        {
+            int i = staticEx.power(7, 3);
+            Console.WriteLine("Power is: "+ i);
+            int s = staticEx.sum(7, 3);
+            Console.WriteLine("\nSum is: "+ s);
+            Console.ReadKey();
+        }
+    }
+
+}
+
